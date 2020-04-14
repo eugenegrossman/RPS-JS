@@ -3,20 +3,42 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="./rps.css">
   <title>JS Bin</title>
 </head>
 <body>
 
   <div id="container"></div>
 
-  <div id="button-container">
-    <button id="rock">Rock</button>
-    <button id="paper">Paper</button>
-    <button id="scissors">Scissors</button>
+  <div class="bts" id="button-container">
+    <img src="./rock.png" width="100" height="100">
+    <button class="btn" id="rock" onclick="addRound(), scoring()">Rock</button>
+    <img src="./paper.jpg" width="100" height="100">
+    <button class="btn" id="paper" onclick="addRound(), scoring()">Paper</button>
+    <img src="./scissors.jpg" width="100" height="100">
+    <button class="btn" id="scissors" onclick="addRound(), scoring()">Scissors</button>
   </div>
   <br>
   <br>
-  <div id="rounds">Rounds Played</div>
+
+  <div>
+    <h1 id="results">Results:</h1> 
+  </div>
+
+  <div class="roundup" id="rounds">
+    <h2>Rounds Played</h2>
+    <h3 id="clicks">0</h3>
+    <br>
+  </div>
+
+  <div class="scores" id="scores">
+    <h2>Scores</h2>
+    <h3>Computer Score:</h3>
+    <h3 id="computerscore">0</h3>
+    <h3>Your Score:</h3>
+    <h3 id="yourscore">0</h3>
+  </div>
+
 
 </body>
 </html>

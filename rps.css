@@ -1,0 +1,29 @@
+.roundup{
+    color: blue;
+    background-color: cornflowerblue;
+    align-items: center;
+}
+
+.bts{
+    position: relative;
+}
+
+.bts img {
+    height: auto;
+    margin-left: 100px; 
+  }
+
+.btn {
+position: absolute;
+/* top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%); */
+background-color: #555;
+color: white;
+font-size: 8px;
+padding: 12px 24px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+}
