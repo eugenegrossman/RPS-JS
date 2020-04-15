@@ -45,12 +45,14 @@ let choices = ['rock','paper','scissors']
     let result = array[computerPlay()][yourPlay()]
     if (result === 'w'){
       console.log("You Win!")
-      document.getElementById('results').innerHTML = 'Results: You Win!';
       yourwins +=1;
+      document.getElementById('results').innerHTML = 'Results: You Win!';
+      document.getElementById('yourscore').innerHTML = yourwins;
     } else if (result === 'l'){
       console.log("You Lose!")
-      document.getElementById('results').innerHTML = 'Results: You Lose!';
       computerwins +=1;
+      document.getElementById('results').innerHTML = 'Results: You Lose!';
+      document.getElementById('computerscore').innerHTML = computerwins;
     }else{
       document.getElementById('results').innerHTML = 'Results: Tie Game.';
       console.log("It's a tie.");
@@ -61,12 +63,6 @@ let choices = ['rock','paper','scissors']
 function addRound() {
   rounds += 1;
   document.getElementById('clicks').innerHTML = rounds;
-  }
-
-//keeping score
-function scoring() {
-  document.getElementById('computerscore').innerHTML = computerwins;
-  document.getElementById('yourscore').innerHTML = yourwins;
   }
 
 //buttons
