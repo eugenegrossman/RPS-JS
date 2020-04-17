@@ -16,13 +16,6 @@ let choices = ['rock','paper','scissors']
   let yourwins = 0
   var rounds = 0
 
-  //rounds
-  // const roundsplayed = document.querySelector('#rounds');
-  // const roundsplayed_count = document.createElement('p');
-  // roundsplayed_count.classList.add('roundsplayed');
-  // roundsplayed_count.textContent = 0;
-  // roundsplayed_count.style.color = "blue";
-
 //random computer's play
   function computerPlay(){
       let cChoice = choices[Math.floor(Math.random()*choices.length)]

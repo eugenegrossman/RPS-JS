@@ -1,29 +1,47 @@
 .scores{
     color: blue;
     background-color: cornflowerblue;
-    align-items: center;
+    text-align: center;
+    
+}
+
+.roundup{
+    text-align: center;
 }
 
 .bts{
+    display: flex; 
     position: relative;
+    justify-content: center;
+    align-items: center;
 }
 
 .bts img {
     height: auto;
-    margin-left: 100px; 
+    text-align: center;
+    display: flex; 
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px; 
   }
 
 .btn {
-position: absolute;
-/* top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
--ms-transform: translate(-50%, -50%); */
 background-color: #555;
 color: white;
-font-size: 8px;
+font-size: 10px;
 padding: 12px 24px;
 border: none;
 cursor: pointer;
 border-radius: 5px;
+text-align: center;
+display: flex; 
+justify-content: center;
+}
+
+#results{
+    text-align: center;
+}
+
+.content{
+    text-align: center;
 }
