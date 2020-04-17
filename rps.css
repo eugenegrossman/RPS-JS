@@ -45,3 +45,7 @@ justify-content: center;
 .content{
     text-align: center;
 }
+
+#scores{
+    color: rgb(2, 2, 85); 
+}
