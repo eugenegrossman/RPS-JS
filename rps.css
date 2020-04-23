@@ -3,6 +3,7 @@
     background-color: rgb(255, 248, 189);
     max-width: 600px;
     margin: auto;
+    border: solid goldenrod 2px; 
 }
 
 .roundup{
@@ -21,6 +22,7 @@
     background-color: turquoise;
     max-width: 700px;
     margin: auto;
+    border: solid rgb(7, 15, 90) .5px; 
 }
 
 .bts img {
@@ -43,6 +45,7 @@ border-radius: 5px;
 text-align: center;
 display: flex; 
 justify-content: center;
+border: solid rgb(6, 8, 126) .5px; 
 }
 
 
