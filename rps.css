@@ -1,12 +1,14 @@
 .scores{
-    color: blue;
-    background-color: cornflowerblue;
     text-align: center;
+    background-color: rgb(255, 248, 189);
     
 }
 
 .roundup{
     text-align: center;
+    color: blue;
+    background-color: cornflowerblue;
+    
 }
 
 .bts{
