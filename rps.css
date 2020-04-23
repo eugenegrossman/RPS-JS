@@ -1,14 +1,16 @@
 .scores{
     text-align: center;
     background-color: rgb(255, 248, 189);
-    
+    max-width: 600px;
+    margin: auto;
 }
 
 .roundup{
     text-align: center;
     color: blue;
     background-color: cornflowerblue;
-    
+    max-width: 500px;
+    margin: auto;
 }
 
 .bts{
@@ -17,6 +19,8 @@
     justify-content: center;
     align-items: center;
     background-color: turquoise;
+    max-width: 700px;
+    margin: auto;
 }
 
 .bts img {
